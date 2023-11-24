@@ -1,36 +1,24 @@
 import Carousel from 'react-bootstrap/Carousel';
-import img1 from '../Images/img-1.jpg'
+import slide from '../../Images/slide.png'
+import slide2 from '../../Images/slide-1.png'
 
 const Sliders = () => {
     return (
-        <div className="m-1">
+        <div className="">
     <Carousel data-bs-theme="dark">
       <Carousel.Item>
         <img
-          className=" "
-          src= {img1}
+          className=" img-fluid"
+          src={slide}
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="img-fluid"
-          src={img1}
-          alt="Second slide"
+          className=" img-fluid"
+          src={slide2}
+          alt="First slide"
         />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="img-fluid"
-          src={img1}
-          alt="Third slide"
-        />
-        <Carousel.Caption>
-          <h5>Third slide label</h5>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
         </div>
