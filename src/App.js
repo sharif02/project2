@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter, Routes , Route } from 'react-router-dom';
 import Home from './pages/Home/Home'
 import LogIN from './pages/Sign/Login'
-import Contact from './pages/About/Contact';
+import Contact from './pages/About/About';
 
 function App() {
   return (
